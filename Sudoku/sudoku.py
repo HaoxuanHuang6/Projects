@@ -2,7 +2,7 @@ import pygame
 import os
 
 # read from a text file and create the board list
-with open (os.path.abspath("Sudoku/matrix.txt")) as file:
+with open (os.path.abspath("matrix.txt")) as file:
     matrix = file.read()
 board = []
 for i in range(9):
