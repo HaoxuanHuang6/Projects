@@ -20,5 +20,7 @@ with open (os.path.abspath("YOUR PATH TO matrix.txt")) as file:
 Click your right mouse key and click a number on your keyboard to change the number on the game board. If clicking the number doesn't make any change, re-click your right mouse key and input your number again.
 ```
 Note: You can change numbers at any position, including those being set up initially.
-Winning Condition: To solve the puzzle, you need to fill in the blank squares with numbers ranging from 1 to 9. The catch is that each square must contain a value that is unique to that row, column, and box.
+
+Winning Condition: To solve the puzzle, you need to fill in the blank squares with numbers ranging from 1 to 9.
+The catch is that each square must contain a value that is unique to that row, column, and box.
 ```
