@@ -2,8 +2,8 @@
 1. In the file <i>matrix.txt</i>, DIY your own sudoku. Type any number between 0-9 at every position, and make sure your sudoku is solvable.
 Numbers 1-9 will be displayed as itself in the game, and 0 will be displayed as blank.
 2. Make sure you have pygame and os installed
-3. Open the Sudoku folder in your editor, then you can run <i>sudoku.py</i> to open the game.
-(If you see FileNotFoundError, please make sure you opened Sudoku folder in your editor. If this cannot solve the problem, you can change the path in the following code to the path that can open the file <i>matrix.txt</i>)
+3. Open the <i>Sudoku</i> folder in your editor, then run <i>sudoku.py</i> to open the game.
+(If you see FileNotFoundError, please make sure you open the <i>Sudoku</i> folder in your editor. If this cannot solve the problem, you can change the path in the following code to the path that can open the file <i>matrix.txt</i>)
 ```
 with open (os.path.abspath("matrix.txt")) as file:
     matrix = file.read()
